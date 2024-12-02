@@ -33,19 +33,18 @@ This project is designed to assess the skills of a mid-level Java backend develo
 
     ```bash
     # For Maven
-    mvn clean install
+    mvn clean package
+   ```
 
-    # For Gradle
-    gradle build
-    ```
-
-4. Configure the database connection in `application.properties` file.
-
-5. Run the application:
+4. Run the application:
 
     ```bash
     # For Maven
     mvn spring-boot:run
+   ```
    
-6. API DOC
+5.API DOC
+ ```
+ http://localhost:8080/swagger-ui/index.html
+ ```
    
